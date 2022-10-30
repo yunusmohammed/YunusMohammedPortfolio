@@ -10,23 +10,35 @@ export default function Navbar() {
             Yunus Mohammed
           </a>
         </a>
-        <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
+        <nav className="md:ml-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
+          <a href="#home" className="mr-5 hover:text-white">
+            Home
+          </a>
+          <a href="#education" className="mr-5 hover:text-white">
+            Education
+          </a>
+          <a href="#experience" className="mr-5 hover:text-white">
+            Experience
+          </a>
           <a href="#projects" className="mr-5 hover:text-white">
-            Past Work
+            Projects
           </a>
           <a href="#skills" className="mr-5 hover:text-white">
             Skills
           </a>
-          <a href="#testimonials" className="mr-5 hover:text-white">
+          <a href="#testimonials" className="mr-5 hover:text-white ">
             Testimonials
           </a>
+          <a href="#contacts" className="mr-5 hover:text-white ">
+            Contacts
+          </a>
         </nav>
-        <a
-          href="#contact"
+        {/* <a
+          href="#contacts"
           className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
           Hire Me
           <ArrowRightIcon className="w-4 h-4 ml-1" />
-        </a>
+        </a> */}
       </div>
     </header>
   );
