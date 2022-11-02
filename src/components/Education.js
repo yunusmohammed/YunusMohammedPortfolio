@@ -11,11 +11,21 @@ export default function Projects () {
           <h1 className='sm:text-4xl text-3xl font-medium title-font mb-4 text-black'>
             Education
           </h1>
-          <p className='lg:w-2/3 mx-auto leading-relaxed text-base'>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-            facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-            fuga dolore.
-          </p>
+          <div className='container mx-auto flex py-10 md:flex-row flex-col text-left'>
+            <div className='lg:max-w-xs lg:w-full md:w-1/2 w-5/6 items-center'>
+              <img src='./cornell.svg' class='w-64 h-64 flex' />
+            </div>
+            <div class='text-start align-top py-2'>
+              <h2 class='pb-2'>Cornell University</h2>
+              <h3>Bsc. Computer Science</h3>
+              <h3 class='pb-16'>GPA: 4.02</h3>
+              <p>
+                Relevant Courses: Data Structures, Algorithm Design, Operating
+                Systems, Computer Networks, Database Design, Cloud Computing,
+                Distributed Systems
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
