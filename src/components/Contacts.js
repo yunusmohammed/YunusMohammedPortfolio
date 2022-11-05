@@ -7,7 +7,7 @@ export default function Contact () {
         <div className='flex justify-center pb-5'>
           {/* Github */}
           <a
-            href='http://https://github.com/yunusmohammed'
+            href='https://github.com/yunusmohammed'
             download
             className='inline-flex mr-5 bg-white border-2 border-white focus:outline-none hover:bg-blue-600 rounded-full text-lg'
           >

@@ -8,7 +8,7 @@ export default function About () {
           <div className='flex justify-center py-10'>
             {/* Github */}
             <a
-              href='./yunusmohammedresume.pdf'
+              href='https://github.com/yunusmohammed'
               download
               className='inline-flex mr-5 bg-white border-2 border-white focus:outline-none hover:bg-blue-600 rounded-full text-lg'
             >
