@@ -1,4 +1,4 @@
-import { CodeIcon } from '@heroicons/react/solid'
+import { BsBriefcaseFill } from 'react-icons/bs'
 import React from 'react'
 // import { projects } from "../data";
 
@@ -7,7 +7,7 @@ export default function Projects () {
     <section id='experience' className='text-black bg-gray-100 body-font'>
       <div className='container px-5 py-10 mx-auto text-center lg:px-40'>
         <div className='flex flex-col w-full mb-20'>
-          <CodeIcon className='mx-auto inline-block w-10 mb-4' />
+          <BsBriefcaseFill className='mx-auto inline-block mb-4' size={40} />
           <h1 className='sm:text-4xl text-3xl font-medium title-font mb-4'>
             Experience
           </h1>
