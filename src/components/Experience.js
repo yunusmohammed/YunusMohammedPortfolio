@@ -1,5 +1,11 @@
 import { BsBriefcaseFill } from 'react-icons/bs'
 import React from 'react'
+import {
+  VerticalTimeline,
+  VerticalTimelineElement
+} from 'react-vertical-timeline-component'
+import 'react-vertical-timeline-component/style.min.css'
+import './Experience.css'
 // import { projects } from "../data";
 
 export default function Projects () {
@@ -11,11 +17,35 @@ export default function Projects () {
           <h1 className='sm:text-4xl text-3xl font-medium title-font mb-4'>
             Experience
           </h1>
-          <p className='lg:w-2/3 mx-auto leading-relaxed text-base'>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-            facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-            fuga dolore.
-          </p>
+          <VerticalTimeline className='vertical-timeline vertical-timeline-custom-line1'>
+            <VerticalTimelineElement
+              className='vertical-timeline-element-custom--work1'
+              contentStyle={{ background: 'rgb(17 24 39)', color: '#fff' }}
+              contentArrowStyle={{
+                borderRight: '7px solid  rgb(17 24 39)'
+              }}
+              date='May 2022 - Aug 2022'
+              dateClassName='text-black'
+              iconStyle={{
+                background: 'rgb(243 244 246)',
+                color: 'rgb(17 24 39)'
+              }}
+              iconClassName='vertical-timeline-element-icon1'
+              icon={<BsBriefcaseFill />}
+            >
+              <h3 className='vertical-timeline-element-title text-left'>
+                Software Engineering Intern
+              </h3>
+              <h4 className='vertical-timeline-element-subtitle text-left'>
+                Redmond, WA
+              </h4>
+              <p className='text-left'>
+                I built a telemetry service using C# .NET and various components
+                in Azure to help my team understand how customers use our
+                product
+              </p>
+            </VerticalTimelineElement>
+          </VerticalTimeline>
         </div>
       </div>
     </section>
