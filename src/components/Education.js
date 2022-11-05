@@ -13,7 +13,11 @@ export default function Projects () {
           </h1>
           <div className='container mx-auto flex py-10 md:flex-row flex-col'>
             <div className='flex lg:max-w-xs lg:w-full md:w-1/2 w-full justify-center justify-self-center'>
-              <img src='./cornell.svg' class='w-64 h-64 flex' />
+              <img
+                src='./cornell.svg'
+                class='w-64 h-64 flex'
+                alt='Cornell logo'
+              />
             </div>
             <div class='text-start text-left py-2'>
               <h2 class='pb-2'>Cornell University</h2>
