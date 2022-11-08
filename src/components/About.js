@@ -11,7 +11,7 @@ export default function About () {
             <a
               href='https://github.com/yunusmohammed'
               download
-              className='inline-flex mr-5 bg-white border-2 border-white focus:outline-none hover:bg-blue-300 rounded-full text-lg'
+              className='transition ease-in-out delay-150 inline-flex mr-5 bg-white border-2 border-white focus:outline-none hover:bg-blue-300 rounded-full text-lg'
             >
               <svg
                 xmlns='http://www.w3.org/2000/svg'
@@ -26,7 +26,7 @@ export default function About () {
             {/* Email */}
             <a
               href='mailto:ymm26@cornell.edu'
-              className='inline-flex mr-5 bg-white border-2 border-white focus:outline-none hover:bg-blue-300 rounded-full text-lg'
+              className='transition ease-in-out delay-150 inline-flex mr-5 bg-white border-2 border-white focus:outline-none hover:bg-blue-300 rounded-full text-lg'
             >
               <svg
                 xmlns='http://www.w3.org/2000/svg'
@@ -41,7 +41,7 @@ export default function About () {
             {/* LinkedIn */}
             <a
               href='https://www.linkedin.com/in/yunus-mohammed-8a7941199'
-              className='inline-flex bg-white border-2 border-white focus:outline-none hover:bg-blue-300 rounded-full text-lg'
+              className='transition ease-in-out delay-150 inline-flex bg-white border-2 border-white focus:outline-none hover:bg-blue-300 rounded-full text-lg'
             >
               <svg
                 xmlns='http://www.w3.org/2000/svg'
@@ -68,7 +68,7 @@ export default function About () {
             <a
               href='./yunusmohammedresume.pdf'
               download
-              className='inline-flex text-white border-2 border-white py-2 px-6 focus:outline-none hover:bg-blue-600 rounded-full text-lg'
+              className='transition ease-in-out delay-150 inline-flex text-white border-2 border-white py-2 px-6 focus:outline-none hover:bg-blue-600 rounded-full text-lg'
             >
               <p className='mr-2'>Resume</p>
               <svg
