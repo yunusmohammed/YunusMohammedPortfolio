@@ -1,10 +1,11 @@
 import React from 'react'
+import { FaAngleDown } from 'react-icons/fa'
 
 export default function About () {
   return (
-    <section id='about' className='bg-gray-900'>
+    <section id='about' className='bg-gray-900 md:min-h-screen'>
       <div className='container mx-auto flex px-10 py-20 md:flex-row flex-col items-center'>
-        <div className='lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center'>
+        <div className='lg:flex-grow md:w-1/2  flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center'>
           <div className='flex justify-center py-10'>
             {/* Github */}
             <a
@@ -76,7 +77,7 @@ export default function About () {
                 viewBox='0 0 24 24'
                 stroke-width='1.5'
                 stroke='currentColor'
-                class='w-6 h-6'
+                class='w-fit h-fit '
               >
                 <path
                   stroke-linecap='round'
@@ -85,40 +86,18 @@ export default function About () {
                 />
               </svg>
             </a>
-            {/* <button
-              id='downloadResumeBtn'
-              class='bg-transparent hover:bg-grey py-2 px-4 border-2 border-white text-white text-lg rounded-full inline-flex items-center'
-            >
-              <span class='mr-2'>Resume</span>
-              <svg
-                xmlns='http://www.w3.org/2000/svg'
-                fill='none'
-                viewBox='0 0 24 24'
-                stroke-width='1.5'
-                stroke='currentColor'
-                class='w-6 h-6'
-              >
-                <path
-                  stroke-linecap='round'
-                  stroke-linejoin='round'
-                  d='M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3'
-                />
-              </svg>
-            </button> */}
-            {/* <a
-              href="#projects"
-              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
-              See My Past Work
-            </a> */}
           </div>
         </div>
-        <div className='lg:max-w-lg lg:w-full md:w-1/2 w-5/6'>
+        <div className='sm:w-fit md:w-2/3 lg:w-fit'>
           <img
             className='object-cover object-center rounded'
             alt='hero'
             src='./headshot8.png'
           />
         </div>
+      </div>
+      <div className='flex invisible md:visible justify-center bottom-0 self-end basis-0'>
+        <FaAngleDown className='animate-bounce w-6 h-6' />
       </div>
     </section>
   )
