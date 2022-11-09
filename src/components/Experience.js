@@ -76,7 +76,7 @@ export default function Projects () {
                 I built a prerequisite checker using Java and Spring/SpringBoot
                 to help my team as well as other teams determine whether they
                 can safely migrate their services to a new gateway version
-                without experiencing downtown. I also designed a service that
+                without experiencing downtime. I also designed a service that
                 would automate these migrations for users
               </p>
             </VerticalTimelineElement>

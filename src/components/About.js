@@ -91,7 +91,7 @@ export default function About () {
         <div className='sm:w-fit md:w-2/3 lg:w-fit'>
           <img
             className='object-cover object-center rounded'
-            alt='hero'
+            alt='Yunus Mohammed headshot'
             src='./headshot8.png'
           />
         </div>
