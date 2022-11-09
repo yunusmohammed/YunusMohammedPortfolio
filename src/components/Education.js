@@ -20,13 +20,15 @@ export default function Projects () {
               />
             </div>
             <div class='text-start text-left py-2'>
-              <h2 class='pb-2'>Cornell University</h2>
-              <h3>Bsc. Computer Science</h3>
-              <h3 class='pb-10'>GPA: 4.02</h3>
+              <h2 class='pb-2 sm:text-3xl text-2xl font-medium'>
+                Cornell University
+              </h2>
+              <h3 class='subtitle-font'>Bsc. Computer Science</h3>
+              <h3 class='subtitle-font pb-10'>GPA: 4.02</h3>
               <p>
-                Relevant Courses: Data Structures, Algorithm Design, Operating
-                Systems, Computer Networks, Database Design, Cloud Computing,
-                Distributed Systems
+                <span class='text-xl'> Relevant Courses:</span> Data Structures,
+                Algorithm Design, Operating Systems, Computer Networks, Database
+                Design, Cloud Computing, Distributed Systems
               </p>
             </div>
           </div>
