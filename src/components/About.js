@@ -11,7 +11,8 @@ export default function About () {
             {/* Github */}
             <a
               href='https://github.com/yunusmohammed'
-              download
+              target='_blank'
+              rel='noreferrer'
               className='transition ease-in-out delay-150 inline-flex mr-5 bg-white border-2 border-white focus:outline-none hover:bg-blue-300 rounded-full text-lg'
             >
               <svg
@@ -42,6 +43,8 @@ export default function About () {
             {/* LinkedIn */}
             <a
               href='https://www.linkedin.com/in/yunus-mohammed-8a7941199'
+              target='_blank'
+              rel='noreferrer'
               className='transition ease-in-out delay-150 inline-flex bg-white border-2 border-white focus:outline-none hover:bg-blue-300 rounded-full text-lg'
             >
               <svg
