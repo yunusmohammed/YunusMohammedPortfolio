@@ -6,6 +6,7 @@ import Experience from './components/Experience'
 import Navbar from './components/Navbar'
 import Projects from './components/Projects'
 import Skills from './components/Skills'
+import Outro from './components/Outro'
 // import Testimonials from './components/Testimonials'
 
 export default function App () {
@@ -18,6 +19,7 @@ export default function App () {
       <Projects />
       <Skills />
       <Contact />
+      <Outro />
     </main>
   )
 }

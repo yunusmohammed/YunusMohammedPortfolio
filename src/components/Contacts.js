@@ -1,10 +1,20 @@
 import React from 'react'
+import { MdOutlineConnectWithoutContact } from 'react-icons/md'
 
 export default function Contact () {
   return (
-    <section id='contacts' className='relative bg-gray-900'>
+    <section id='contacts' className='relative text-black bg-white'>
       <div className='container px-5 pt-5 mx-auto sm:flex-nowrap'>
-        <div className='flex justify-center pb-5'>
+        <div className='text-center mb-10'>
+          <MdOutlineConnectWithoutContact
+            size={40}
+            className='mx-auto inline-block mb-4'
+          />
+          <h1 className='sm:text-4xl text-3xl font-medium title-font mb-4'>
+            Contacts
+          </h1>
+        </div>
+        <div className='flex justify-center pb-10'>
           {/* Github */}
           <a
             href='https://github.com/yunusmohammed'
@@ -13,8 +23,8 @@ export default function Contact () {
           >
             <svg
               xmlns='http://www.w3.org/2000/svg'
-              width='48'
-              height='48'
+              width='128'
+              height='128'
               viewBox='0 0 24 24'
               fill='#111827'
             >
@@ -28,8 +38,8 @@ export default function Contact () {
           >
             <svg
               xmlns='http://www.w3.org/2000/svg'
-              width='48'
-              height='48'
+              width='128'
+              height='128'
               viewBox='0 0 24 24'
               fill='#111827'
             >
@@ -43,8 +53,8 @@ export default function Contact () {
           >
             <svg
               xmlns='http://www.w3.org/2000/svg'
-              width='48'
-              height='48'
+              width='128'
+              height='128'
               viewBox='0 0 24 24'
               fill='#111827'
             >
@@ -52,9 +62,9 @@ export default function Contact () {
             </svg>
           </a>
         </div>
-        <div class='pb-5 text-center'>
+        {/* <div class='pb-5 text-center'>
           <p>Yunus Mohammed © 2022</p>
-        </div>
+        </div> */}
       </div>
     </section>
   )

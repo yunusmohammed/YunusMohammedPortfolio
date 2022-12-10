@@ -1,4 +1,5 @@
 import { CodeIcon } from '@heroicons/react/solid'
+import { BsGithub } from 'react-icons/bs'
 import React from 'react'
 // import { projects } from '../data'
 
@@ -12,12 +13,12 @@ export default function Projects () {
             Projects
           </h1>
         </div>
-        <div className='flex mb-3'>
+        <div className='flex mb-10'>
           <div className='min-w-1/3 w-1/3 mr-4 hidden md:flex'>
             <img
-              src='./mediaplaceholder.svg'
+              src='./dbms2.gif'
               class='w-fit h-fit flex border-2'
-              alt='Diagram of a database management sytem'
+              alt='GIF of a database management sytem'
             />
           </div>
           <div className='w-2/3'>
@@ -33,12 +34,55 @@ export default function Projects () {
               filtering, sort by clauses, distinct clauses, and joins (tuple
               nested loop, block nested loop, and sort merge joins).
             </p>
+            <div className='flex justify-left md:mt-14'>
+              <a
+                href='https://github.com/yunusmohammed/cs4321-databse'
+                target='_blank'
+                rel='noreferrer'
+                className='transition ease-in-out delay-150 inline-flex py-2 focus:outline-none hover:text-blue-600 rounded-full text-md'
+              >
+                <p className='mr-2'>View Project</p>
+                <BsGithub size={24} color={'gray-90'} />
+              </a>
+            </div>
           </div>
         </div>
-        <div className='flex mb-3'>
+        <div className='flex mb-10'>
           <div className='min-w-1/3 w-1/3 mr-4 hidden md:flex'>
             <img
-              src='./mediaplaceholder.svg'
+              src='./ams.svg'
+              class='w-fit h-fit flex border-2'
+              alt='Diagram of a the architecture of the Adaptive Stream Project'
+            />
+          </div>
+          <div className='w-2/3'>
+            <h3 className='vertical-timeline-element-title text-left pb-4 text-2xl font-medium'>
+              Adaptive Stream
+            </h3>
+            <p className='text-left text-sm'>
+              I collaborated in a classmate to build a scalable service to
+              stream multibitrate videos based on the connection quality of
+              users. We used various components and tools provided by Azure,
+              including Azure CosmosDB, Azure Functions, Azure WebApps, Azure
+              Blob Storage, and Azure Media Services.
+            </p>
+            <div className='flex justify-left md:mt-14'>
+              <a
+                href='https://github.com/yunusmohammed/cs5412-dynamicVideoStream'
+                target='_blank'
+                rel='noreferrer'
+                className='transition ease-in-out delay-150 inline-flex py-2 focus:outline-none hover:text-blue-600 rounded-full text-md'
+              >
+                <p className='mr-2'>View Project</p>
+                <BsGithub size={24} color={'gray-90'} />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className='flex mb-10'>
+          <div className='min-w-1/3 w-1/3 mr-4 hidden md:flex'>
+            <img
+              src='./portfolio.gif'
               class='w-fit h-fit flex border-2'
               alt='Diagram of a database management sytem'
             />
@@ -52,6 +96,17 @@ export default function Projects () {
               mockup my portfolio website website and built it using ReatJS and
               TailwindCSS.
             </p>
+            <div className='flex justify-left md:mt-14'>
+              <a
+                href='https://github.com/yunusmohammed/yunusmohammed.github.io'
+                target='_blank'
+                rel='noreferrer'
+                className='transition ease-in-out delay-150 inline-flex py-2 focus:outline-none hover:text-blue-600 rounded-full text-md'
+              >
+                <p className='mr-2'>View Project</p>
+                <BsGithub size={24} color={'gray-90'} />
+              </a>
+            </div>
           </div>
         </div>
         {/* <div className='flex flex-wrap -m-4'>
