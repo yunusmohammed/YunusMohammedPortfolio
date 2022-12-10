@@ -1,5 +1,6 @@
 import { CodeIcon } from '@heroicons/react/solid'
-import { BsGithub } from 'react-icons/bs'
+import { BsGithub, BsYoutube } from 'react-icons/bs'
+import { RiSlideshowFill } from 'react-icons/ri'
 import React from 'react'
 // import { projects } from '../data'
 
@@ -71,10 +72,28 @@ export default function Projects () {
                 href='https://github.com/yunusmohammed/cs5412-dynamicVideoStream'
                 target='_blank'
                 rel='noreferrer'
-                className='transition ease-in-out delay-150 inline-flex py-2 focus:outline-none hover:text-blue-600 rounded-full text-md'
+                className='transition ease-in-out delay-150 inline-flex py-2 mr-5 focus:outline-none hover:text-blue-600 rounded-full text-md'
               >
                 <p className='mr-2'>View Project</p>
                 <BsGithub size={24} color={'gray-90'} />
+              </a>
+              <a
+                href='https://github.com/yunusmohammed/yunusmohammed.github.io'
+                target='_blank'
+                rel='noreferrer'
+                className='transition ease-in-out delay-150 inline-flex py-2 mr-5 focus:outline-none hover:text-blue-600 rounded-full text-md'
+              >
+                <p className='mr-2'>Watch Demo</p>
+                <BsYoutube size={24} color={'gray-90'} />
+              </a>
+              <a
+                href='https://github.com/yunusmohammed/yunusmohammed.github.io'
+                target='_blank'
+                rel='noreferrer'
+                className='transition ease-in-out delay-150 inline-flex py-2 mr-5 focus:outline-none hover:text-blue-600 rounded-full text-md'
+              >
+                <p className='mr-2'>Demo Slides</p>
+                <RiSlideshowFill size={24} color={'gray-90'} />
               </a>
             </div>
           </div>
@@ -101,40 +120,32 @@ export default function Projects () {
                 href='https://github.com/yunusmohammed/yunusmohammed.github.io'
                 target='_blank'
                 rel='noreferrer'
-                className='transition ease-in-out delay-150 inline-flex py-2 focus:outline-none hover:text-blue-600 rounded-full text-md'
+                className='transition ease-in-out delay-150 inline-flex py-2 mr-5 focus:outline-none hover:text-blue-600 rounded-full text-md'
               >
                 <p className='mr-2'>View Project</p>
                 <BsGithub size={24} color={'gray-90'} />
               </a>
+              <a
+                href='https://github.com/yunusmohammed/yunusmohammed.github.io'
+                target='_blank'
+                rel='noreferrer'
+                className='transition ease-in-out delay-150 inline-flex py-2 mr-5 focus:outline-none hover:text-blue-600 rounded-full text-md'
+              >
+                <p className='mr-2'>Watch Pitch</p>
+                <BsYoutube size={24} color={'gray-90'} />
+              </a>
+              <a
+                href='https://github.com/yunusmohammed/yunusmohammed.github.io'
+                target='_blank'
+                rel='noreferrer'
+                className='transition ease-in-out delay-150 inline-flex py-2 mr-5 focus:outline-none hover:text-blue-600 rounded-full text-md'
+              >
+                <p className='mr-2'>Pitch Slides</p>
+                <RiSlideshowFill size={24} color={'gray-90'} />
+              </a>
             </div>
           </div>
         </div>
-        {/* <div className='flex flex-wrap -m-4'>
-          {projects.map(project => (
-            <a
-              href={project.link}
-              key={project.image}
-              className='sm:w-1/2 w-100 p-4'
-            >
-              <div className='flex relative'>
-                <img
-                  alt='gallery'
-                  className='absolute inset-0 w-full h-full object-cover object-center'
-                  src={project.image}
-                />
-                <div className='px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100'>
-                  <h2 className='tracking-widest text-sm title-font font-medium text-green-400 mb-1'>
-                    {project.subtitle}
-                  </h2>
-                  <h1 className='title-font text-lg font-medium text-white mb-3'>
-                    {project.title}
-                  </h1>
-                  <p className='leading-relaxed'>{project.description}</p>
-                </div>
-              </div>
-            </a>
-          ))}
-        </div> */}
       </div>
     </section>
   )
