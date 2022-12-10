@@ -78,7 +78,7 @@ export default function Projects () {
                 <BsGithub size={24} color={'gray-90'} />
               </a>
               <a
-                href='https://github.com/yunusmohammed/yunusmohammed.github.io'
+                href='https://youtu.be/7Aj2xsYUgSI'
                 target='_blank'
                 rel='noreferrer'
                 className='transition ease-in-out delay-150 inline-flex py-2 mr-5 focus:outline-none hover:text-blue-600 rounded-full text-md'
@@ -87,7 +87,7 @@ export default function Projects () {
                 <BsYoutube size={24} color={'gray-90'} />
               </a>
               <a
-                href='https://github.com/yunusmohammed/yunusmohammed.github.io'
+                href='https://docs.google.com/presentation/d/1vX8XYXZXbHeq6fZhU5-j5TtphHCSKZT_-5ud8LIa28k/edit?usp=sharing'
                 target='_blank'
                 rel='noreferrer'
                 className='transition ease-in-out delay-150 inline-flex py-2 mr-5 focus:outline-none hover:text-blue-600 rounded-full text-md'
@@ -126,7 +126,7 @@ export default function Projects () {
                 <BsGithub size={24} color={'gray-90'} />
               </a>
               <a
-                href='https://github.com/yunusmohammed/yunusmohammed.github.io'
+                href='https://youtu.be/1XXRKXbNtpM'
                 target='_blank'
                 rel='noreferrer'
                 className='transition ease-in-out delay-150 inline-flex py-2 mr-5 focus:outline-none hover:text-blue-600 rounded-full text-md'
@@ -135,12 +135,12 @@ export default function Projects () {
                 <BsYoutube size={24} color={'gray-90'} />
               </a>
               <a
-                href='https://github.com/yunusmohammed/yunusmohammed.github.io'
+                href='https://docs.google.com/presentation/d/17DurUfGDnKF5bkAp14X_Uv_br9BZhYVOkfA84MPzqlk/edit?usp=sharing'
                 target='_blank'
                 rel='noreferrer'
                 className='transition ease-in-out delay-150 inline-flex py-2 mr-5 focus:outline-none hover:text-blue-600 rounded-full text-md'
               >
-                <p className='mr-2'>Pitch Slides</p>
+                <p className='mr-2'>Wireframe Slides</p>
                 <RiSlideshowFill size={24} color={'gray-90'} />
               </a>
             </div>
