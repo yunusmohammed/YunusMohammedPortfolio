@@ -83,7 +83,9 @@ export default function About () {
           <img
             className='object-cover object-center rounded'
             alt='Yunus Mohammed headshot'
-            src='./headshot8.png'
+            height={512}
+            width={512}
+            src='./yunus2.png'
           />
         </div>
       </div>
